@@ -5,6 +5,3 @@ hostname = passport.58.com, dxy.com, *.peopleapp.com, app.58.com,maimai.cn,biz.l
 
 #扫描全能王(by nobyda)
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
-
-#WPS解锁  超级会员、wps会员、稻壳会员 (By eHpo)
-^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
